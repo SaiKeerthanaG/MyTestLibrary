@@ -7,5 +7,10 @@ final class MyTestLibraryTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
         XCTAssertEqual(MyTestLibrary().text, "Hello, World!")
+        
+        var std = Student(name: "john", roll: 1, marks: 100)
+        std.getPercentage()
+        
+        
     }
 }
